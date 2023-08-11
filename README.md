@@ -81,7 +81,7 @@ Aborted
 ```
 
 
-Can't read kernel logs with `cat`, `less`, or `more`. Sometimes buy luck I can read the logs.
+Can't read kernel logs with `cat`, `less`, or `more`. Sometimes by luck I can read the logs.
 ```
 debian@BeagleBone:~/buggy-bbai64_cortex-r5_examples/r5_toggle4_broken_1_yes-and-eql_yes-or-eql$ cat /var/log/kern.log
 -bash: /bin/cat: Input/output error
