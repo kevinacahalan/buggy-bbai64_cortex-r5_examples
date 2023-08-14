@@ -24,12 +24,12 @@ Alternatively, if I first reset the board and then run `r5_toggle4_broken_1_yes-
 
 
 ## Random notes
-- bit 29 in the block 4-5 register corresponds to pin p9-14 on the BeagleBoneAI64.
+- bit 29 in the block 4-5 registers corresponds to pin p9-14 on the BeagleBoneAI64.
 - Although I have not tested, I highly suspect this issue hits with other gpio blocks and bits.
 - I tested this bug on two different BBAI64's and with several different SD card of the same model and size.
 - I was using linux kernel 5.10 but iirc I also hit this bug on 6.x
 - I slowly narrowed this bug down after a week and half of fighting. That fact that the bug only hits if I had first not run a working firmware messed with me hard.
-- The r5 firmware seems to keep running fine when the bug hits. For the examples in this repo the p9-14 pin keep toggling after linux gets messed up.
+- The r5 firmware seems to keep running fine when the bug hits. For the examples in this repo the p9-14 pin kept toggling after linux got messed up.
 
 
 
